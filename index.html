@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>word scramble</title>
+    
+    <script src="app.js" defer></script>
+    <script src="gameData.js" defer></script>
+</head>
+<body>
+    
+        <header>
+            <h1 id="title-display">word scramble</h1>
+        </header>
+        <main>
+            <section id="left-half">
+            <table>
+                <tr>
+                    <td id="l1" class="level-up-invisible">11</td>
+                    <td id="t1">1</td>
+                    <td id="t2">2</td>
+                    <td id="t3">3</td>
+                </tr>
+                <tr>
+                    <td id="l2" class="level-up-invisible">12</td>
+                    <td id="t4">4</td>
+                    <td id="t5">5</td>
+                    <td id="t6">6</td>
+                </tr>
+                <tr>
+                    <td id="l3" class="level-up-invisible">13</td>
+                    <td id="t7">7</td>
+                    <td id="t8">8</td>
+                    <td id="t9">9</td>
+                </tr>
+                <tr>
+                    <td id="l4" class="level-up-invisible">14</td>
+                    <td id="l5" class="level-up-invisible">15</td>
+                    <td id="l6" class="level-up-invisible">16</td>
+                    <td id="l7" class="level-up-invisible">17</td>
+                </tr>
+            </table>
+            <p>Multiple words are scrambled in the grid above.<br> Solve the puzzle by clicking each word's letters in the correct order.</p>
+            </section>
+            <section id="right-half">
+                <h2 id="level-display">Level 1</h2>
+                <div id="lives">
+
+                </div>
+                <ul id="blank-spaces">
+
+                </ul>
+                <p id="score"></p>
+                <div class="buttons">
+                        <button id="retry">Retry Level</button>
+                        <button id="hint">? Hint</button>
+                        <button id="quit">Start Over</button>
+                </div>
+            </section>
+        </main>
+</body>
+</html>
